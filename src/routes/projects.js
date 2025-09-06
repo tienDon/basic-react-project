@@ -6,6 +6,7 @@ import ToggleBackgroundColor from "../projects/toggleBackgroundColor/ToggleBackg
 import HiddenSearchBar from "../projects/hiddenSearchBar/HiddenSearchBar";
 import Testimonials from "../projects/testimonials/Testimonials";
 import Accordions from "../projects/accordion/Accordions";
+import FormValidation from "../projects/formValidation/FormValidation";
 
 export const projects = [
   {
@@ -55,5 +56,11 @@ export const projects = [
     title: "08 - Accordions",
     path: "/accordions",
     component: Accordions,
+  },
+  {
+    id: "09_form_validation",
+    title: "09 - Form Validation",
+    path: "/form-validation",
+    component: FormValidation,
   },
 ];
