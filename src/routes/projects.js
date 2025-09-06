@@ -5,6 +5,7 @@ import Calculator from "../projects/calculator/Calculator";
 import ToggleBackgroundColor from "../projects/toggleBackgroundColor/ToggleBackgroundColor";
 import HiddenSearchBar from "../projects/hiddenSearchBar/HiddenSearchBar";
 import Testimonials from "../projects/testimonials/Testimonials";
+import Accordions from "../projects/accordion/Accordions";
 
 export const projects = [
   {
@@ -48,5 +49,11 @@ export const projects = [
     title: "07 - Testimonials",
     path: "/testimonials",
     component: Testimonials,
+  },
+  {
+    id: "08_accordions",
+    title: "08 - Accordions",
+    path: "/accordions",
+    component: Accordions,
   },
 ];
