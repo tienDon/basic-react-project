@@ -1,6 +1,6 @@
 function Layout({ title, component: Component, onBack }) {
   return (
-    <div className="flex flex-col items-center p-6 bg-gray-600 min-h-screen">
+    <div className="flex flex-col items-center  bg-gray-600 ">
       <div className="flex justify-between w-full max-w-4xl">
         <h2 className="text-2xl font-semibold mb-4 text-white">{title}</h2>
         <button

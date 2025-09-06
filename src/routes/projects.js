@@ -1,6 +1,7 @@
 import Counter from "../projects/counter/Counter";
 import Todo from "../projects/todo/Todo";
 import Meals from "../projects/meals/Meals";
+import Calculator from "../projects/calculator/Calculator";
 
 export const projects = [
   {
@@ -20,5 +21,11 @@ export const projects = [
     title: "03 - Meals",
     path: "/meals",
     component: Meals,
+  },
+  {
+    id: "04_calculator",
+    title: "04 - Calculator",
+    path: "/calculator",
+    component: Calculator,
   },
 ];
