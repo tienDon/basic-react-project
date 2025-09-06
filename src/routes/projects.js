@@ -4,6 +4,7 @@ import Meals from "../projects/meals/Meals";
 import Calculator from "../projects/calculator/Calculator";
 import ToggleBackgroundColor from "../projects/toggleBackgroundColor/ToggleBackgroundColor";
 import HiddenSearchBar from "../projects/hiddenSearchBar/HiddenSearchBar";
+import Testimonials from "../projects/testimonials/Testimonials";
 
 export const projects = [
   {
@@ -41,5 +42,11 @@ export const projects = [
     title: "06 - Hidden Search Bar",
     path: "/hidden-search-bar",
     component: HiddenSearchBar,
+  },
+  {
+    id: "07_testimonials",
+    title: "07 - Testimonials",
+    path: "/testimonials",
+    component: Testimonials,
   },
 ];
