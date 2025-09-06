@@ -2,6 +2,7 @@ import Counter from "../projects/counter/Counter";
 import Todo from "../projects/todo/Todo";
 import Meals from "../projects/meals/Meals";
 import Calculator from "../projects/calculator/Calculator";
+import ToggleBackgroundColor from "../projects/toggleBackgroundColor/ToggleBackgroundColor";
 
 export const projects = [
   {
@@ -27,5 +28,11 @@ export const projects = [
     title: "04 - Calculator",
     path: "/calculator",
     component: Calculator,
+  },
+  {
+    id: "05_toggle_background_color",
+    title: "05 - Toggle Background Color",
+    path: "/toggle-background-color",
+    component: ToggleBackgroundColor,
   },
 ];
