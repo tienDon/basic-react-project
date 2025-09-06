@@ -3,6 +3,7 @@ import Todo from "../projects/todo/Todo";
 import Meals from "../projects/meals/Meals";
 import Calculator from "../projects/calculator/Calculator";
 import ToggleBackgroundColor from "../projects/toggleBackgroundColor/ToggleBackgroundColor";
+import HiddenSearchBar from "../projects/hiddenSearchBar/HiddenSearchBar";
 
 export const projects = [
   {
@@ -34,5 +35,11 @@ export const projects = [
     title: "05 - Toggle Background Color",
     path: "/toggle-background-color",
     component: ToggleBackgroundColor,
+  },
+  {
+    id: "06_hidden_search_bar",
+    title: "06 - Hidden Search Bar",
+    path: "/hidden-search-bar",
+    component: HiddenSearchBar,
   },
 ];
