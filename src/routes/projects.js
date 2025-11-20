@@ -7,6 +7,7 @@ import HiddenSearchBar from "../projects/hiddenSearchBar/HiddenSearchBar";
 import Testimonials from "../projects/testimonials/Testimonials";
 import Accordions from "../projects/accordion/Accordions";
 import FormValidation from "../projects/formValidation/FormValidation";
+import Quiz from "../projects/quiz/Quiz";
 
 export const projects = [
   {
@@ -62,5 +63,11 @@ export const projects = [
     title: "09 - Form Validation",
     path: "/form-validation",
     component: FormValidation,
+  },
+  {
+    id: "10_quiz_app",
+    title: "10 - Quiz App",
+    path: "/quiz",
+    component: Quiz,
   },
 ];
